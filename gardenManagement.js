@@ -17,6 +17,6 @@ else {
 }
 
 while (soilMoisture <= 40) {
-    console.log("Soil Moisture:" + soilMoisture);
+    console.log(+ soilMoisture);
     soilMoisture += 5;
 }
